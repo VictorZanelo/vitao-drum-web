@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-play{
+    width: 50vw;
+    height: 30vh;
+    border-radius: 15px;
+    border: none;
+    background: rgb(38, 172, 255);
+    color:#fff;
+    font-size: xx-large;
+    cursor: pointer;
+    
+}
+.btn-play:hover{
+    background: rgb(25, 113, 168);
+
+}
