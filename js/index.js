@@ -11,7 +11,7 @@ btn_play.addEventListener("click", () => {
 });
 
 function initWebSocket() {
-  const ws = new WebSocket("ws://192.168.4.1/ws");
+  const ws = new WebSocket("wss://192.168.4.1/ws");
 
   ws.onopen = function () {
     console.log("Connection opened");
